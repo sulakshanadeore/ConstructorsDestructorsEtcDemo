@@ -1,0 +1,46 @@
+﻿
+	Constructor
+	Destructor
+	IDisposable
+	Dispose
+	Finalize
+
+
+Class--Reference Type
+so its gets created on the heap-
+
+when ? new --constructing()----
+
+reserves a memory block for the object created on the heap,
+the address of the block is stored on the stack
+
+
+ILDASM----Intermediate Language Disassembler/e/er
+
+---------------------------------------------------------
+
+Constructor---new ----objectname
+Managed Heap---->
+Garbage Collector------> collecting all the resources of all the resources which are not used for a long period of time.
+
+
+Generations of the Objects/Lifetime of the object:
+
+Gen 0: Most newly created/marked as gen0 on the heap----Most frequently garbage collected.
+Gen 1: Reuse of the object will give a increment on the Gen 1/on the heap--Gen1--Less frequently
+garbage collected.
+Gen 2: More reuse shifts the object to gen2----are very rarely garbage collected.
+Only be garbage Collected if they are not used/Dispose or the newly coming object need space on the heap, at the same time when the objects are not used.
+---------------------------------------------------------
+
+Freachable Queue---> 
+
+
+
+
+
+
+
+
+
+
