@@ -33,6 +33,7 @@ Gen 2: More reuse shifts the object to gen2----are very rarely garbage collected
 Only be garbage Collected if they are not used/Dispose or the newly coming object need space on the heap, at the same time when the objects are not used.
 ---------------------------------------------------------
 
+
 Freachable Queue---> 
 
 
