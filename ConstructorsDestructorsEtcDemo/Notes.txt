@@ -13,6 +13,8 @@ when ? new --constructing()----
 
 reserves a memory block for the object created on the heap,
 the address of the block is stored on the stack
+-----------------------
+command to open the disassembler:
 
 
 ILDASM----Intermediate Language Disassembler/e/er
